@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "name": "migRaven.Max",
+    "version": "1.5.260",
+    "licenseApiBaseUrl": "https://public.migraven.com/api/v1"
+  },
+  "paths": {
+    "programFiles": "C:\\Program Files\\migRaven.Max",
+    "programData": "C:\\ProgramData\\migRaven.Max",
+    "iisWwwroot": "C:\\inetpub\\migRavenMAX",
+    "neo4jHome": "C:\\Program Files\\migRaven.Max\\neo4j"
+  },
+  "javaRuntimeInfo": {
+    "requiredMajorVersion": 21,
+    "minimumPatchVersion": "21.0.5",
+    "downloadUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_windows_hotspot_21.0.11_10.zip",
+    "downloadPageUrl": "https://adoptium.net/temurin/releases/?version=21&package=jre",
+    "displayHint": "Eclipse Temurin JRE 21 LTS (oder kompatibles OpenJDK 21)"
+  },
+  "downloads": {
+    "neo4j": {
+      "url": "https://dist.neo4j.org/neo4j-enterprise-{version}-windows.zip",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "apoc": {
+      "url": "https://github.com/neo4j/apoc/releases/download/{version}/apoc-{version}-core.jar",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "gds": {
+      "url": "https://graphdatascience.ninja/neo4j-graph-data-science-2.13.0.zip",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "vcredist": {
+      "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "urlRewrite": {
+      "url": "https://download.microsoft.com/download/1/2/8/128E2E22-C1B9-44A4-BE2A-5859ED1D4592/rewrite_amd64_en-US.msi",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "arr": {
+      "url": "https://download.microsoft.com/download/E/9/8/E9849D6A-020E-47E4-9FD0-A023E99B54EB/requestRouter_amd64.msi",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "backend": {
+      "url": "https://releases.migraven.com/max/1.5.260/migRavenMAX-Backend-v1.5.260.zip",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
+    "frontend": {
+      "url": "https://releases.migraven.com/max/1.5.260/migRavenMAX-Frontend-v1.5.260.zip",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    }
+  },
+  "neo4j": {
+    "heapInitialMB": 4096,
+    "heapMaxMB": 8192,
+    "pagecacheMB": 4096,
+    "boltPort": 7687,
+    "httpPort": 7474,
+    "database": "ad.audit.migraven",
+    "serviceName": "migRavenMAXNeo4j"
+  },
+  "backend": {
+    "port": 9032,
+    "serviceName": "migRavenMAXBackend"
+  },
+  "iis": {
+    "siteName": "migRavenMAX",
+    "httpsPort": 443,
+    "enableSelfSignedCert": true
+  },
+  "featureFlagDefaults": {
+    "FEATURE_BROWSER_AGENT": false,
+    "FEATURE_AI_SANDBOX": false,
+    "FEATURE_THESYS_MODES": false,
+    "FEATURE_KARL_RIG_SKILLS": false,
+    "FEATURE_AI_MEMORY": false,
+    "FEATURE_SAAS": false,
+    "FEATURE_CLAUDE_CODE_AGENT": false,
+    "FEATURE_VIDEO_PRESENTATION": false
+  }
+}
