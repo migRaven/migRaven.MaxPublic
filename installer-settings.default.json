@@ -15,8 +15,18 @@
     "requiredMajorVersion": 21,
     "minimumPatchVersion": "21.0.5",
     "downloadUrl": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.11%2B10/OpenJDK21U-jre_x64_windows_hotspot_21.0.11_10.zip",
+    "sha256": "be26677aaa20b39a62edcaab4c8857a8b76673b0f45abc0b6143b142b62717e4",
     "downloadPageUrl": "https://adoptium.net/temurin/releases/?version=21&package=jre",
-    "displayHint": "Eclipse Temurin JRE 21 LTS (oder kompatibles OpenJDK 21)"
+    "displayHint": "Eclipse Temurin JRE 21 LTS (oder kompatibles OpenJDK 21)",
+    "discovery": {
+      "enabled": true,
+      "apiBaseUrl": "https://api.adoptium.net/v3",
+      "os": "windows",
+      "architecture": "x64",
+      "imageType": "jre",
+      "jvmImpl": "hotspot",
+      "vendor": "eclipse"
+    }
   },
   "downloads": {
     "neo4j": {
