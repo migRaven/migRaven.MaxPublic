@@ -52,6 +52,10 @@
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     }
   },
+  "versionDiscovery": {
+    "url": "https://neo4j.com/docs/operations-manual/current/installation/windows/",
+    "edition": "enterprise"
+  },
   "neo4j": {
     "heapInitialMB": 4096,
     "heapMaxMB": 8192,
