@@ -38,7 +38,7 @@
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
     "gds": {
-      "url": "https://graphdatascience.ninja/neo4j-graph-data-science-2.13.0.zip",
+      "url": "https://github.com/neo4j/graph-data-science/releases/download/{version}/neo4j-graph-data-science-{version}.jar",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
     "vcredist": {
