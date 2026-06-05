@@ -9,7 +9,8 @@
     "programFiles": "C:\\Program Files\\migRaven.Max",
     "programData": "C:\\ProgramData\\migRaven.Max",
     "iisWwwroot": "C:\\inetpub\\migRavenMAX",
-    "neo4jHome": "C:\\Program Files\\migRaven.Max\\neo4j"
+    "neo4jHome": "C:\\Program Files\\migRaven.Max\\neo4j",
+    "javaHome": "C:\\Program Files\\migRaven.Max\\jre"
   },
   "javaRuntimeInfo": {
     "requiredMajorVersion": 21,
