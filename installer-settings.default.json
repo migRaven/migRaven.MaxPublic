@@ -38,6 +38,10 @@
       "url": "https://github.com/neo4j/apoc/releases/download/{version}/apoc-{version}-core.jar",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
+    "apocExtended": {
+      "url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/{version}/apoc-{version}-extended.jar",
+      "sha256": "TODO_FILL_AT_RELEASE_TIME"
+    },
     "gds": {
       "url": "https://github.com/neo4j/graph-data-science/releases/download/{version}/neo4j-graph-data-science-{version}.jar",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
