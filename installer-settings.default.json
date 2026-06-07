@@ -1,16 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "product": {
     "name": "migRaven.Max",
     "version": "1.5.260",
     "licenseApiBaseUrl": "https://public.migraven.com/api/v1"
   },
   "paths": {
-    "programFiles": "C:\\Program Files\\migRaven.Max",
+    "installRoot": "C:\\Program Files\\migRaven.Max",
+    "programFiles": "{installRoot}",
     "programData": "C:\\ProgramData\\migRaven.Max",
     "iisWwwroot": "C:\\inetpub\\migRavenMAX",
-    "neo4jHome": "C:\\Program Files\\migRaven.Max\\neo4j",
-    "javaHome": "C:\\Program Files\\migRaven.Max\\jre"
+    "neo4jHome": "{installRoot}\\neo4j",
+    "javaHome": "{installRoot}\\jre"
   },
   "javaRuntimeInfo": {
     "requiredMajorVersion": 21,
