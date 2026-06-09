@@ -78,7 +78,7 @@
     "pagecacheMB": 4096,
     "boltPort": 7687,
     "httpPort": 7474,
-    "database": "ad.audit.migraven",
+    "database": "migraven.max",
     "serviceName": "migRavenMAXNeo4j"
   },
   "backend": {
