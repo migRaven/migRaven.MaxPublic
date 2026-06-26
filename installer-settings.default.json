@@ -6,10 +6,10 @@
     "licenseApiBaseUrl": "https://public.migraven.com/api/v1"
   },
   "paths": {
-    "installRoot": "C:\\Program Files\\migRaven.Max",
+    "installRoot": "D:\\migRaven.Max",
     "programFiles": "{installRoot}",
     "programData": "C:\\ProgramData\\migRaven.Max",
-    "iisWwwroot": "C:\\inetpub\\migRavenMAX",
+    "iisWwwroot": "D:\\inetpub\\migRavenMAX",
     "neo4jHome": "{installRoot}\\neo4j",
     "javaHome": "{installRoot}\\jre"
   },
@@ -40,7 +40,7 @@
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
     "apocExtended": {
-      "url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/2026.04.0/apoc-2026.04.0-extended.jar",
+      "url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/{version}/apoc-{version}-extended.jar",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
     "gds": {
