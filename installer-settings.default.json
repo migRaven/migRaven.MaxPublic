@@ -14,12 +14,12 @@
     "javaHome": "{installRoot}\\jre"
   },
   "javaRuntimeInfo": {
-    "requiredMajorVersion": 21,
-    "minimumPatchVersion": "21.0.5",
-    "downloadUrl": "https://api.adoptium.net/v3/binary/latest/21/ga/windows/x64/jre/hotspot/normal/eclipse",
+    "requiredMajorVersion": 25,
+    "minimumPatchVersion": "25.0.0",
+    "downloadUrl": "https://api.adoptium.net/v3/binary/latest/25/ga/windows/x64/jre/hotspot/normal/eclipse",
     "sha256": "",
-    "downloadPageUrl": "https://adoptium.net/temurin/releases/?version=21&package=jre",
-    "displayHint": "Eclipse Temurin JRE 21 LTS (oder kompatibles OpenJDK 21)",
+    "downloadPageUrl": "https://adoptium.net/temurin/releases/?version=25&package=jre",
+    "displayHint": "Eclipse Temurin JRE 25 LTS (oder kompatibles OpenJDK 25)",
     "discovery": {
       "enabled": true,
       "apiBaseUrl": "https://api.adoptium.net/v3",
