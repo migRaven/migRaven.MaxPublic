@@ -43,10 +43,6 @@
       "url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/{version}/apoc-{version}-extended.jar",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
     },
-    "gds": {
-      "url": "https://github.com/neo4j/graph-data-science/releases/download/{version}/neo4j-graph-data-science-{version}.jar",
-      "sha256": "TODO_FILL_AT_RELEASE_TIME"
-    },
     "vcredist": {
       "url": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
