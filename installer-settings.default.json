@@ -54,14 +54,6 @@
     "arr": {
       "url": "https://download.microsoft.com/download/E/9/8/E9849D6A-020E-47E4-9FD0-A023E99B54EB/requestRouter_amd64.msi",
       "sha256": "TODO_FILL_AT_RELEASE_TIME"
-    },
-    "backend": {
-      "url": "https://releases.migraven.com/max/1.5.260/migRavenMAX-Backend-v1.5.260.zip",
-      "sha256": "TODO_FILL_AT_RELEASE_TIME"
-    },
-    "frontend": {
-      "url": "https://releases.migraven.com/max/1.5.260/migRavenMAX-Frontend-v1.5.260.zip",
-      "sha256": "TODO_FILL_AT_RELEASE_TIME"
     }
   },
   "versionDiscovery": {
