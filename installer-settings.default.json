@@ -1,9 +1,7 @@
 {
   "schemaVersion": 2,
   "product": {
-    "name": "migRaven.Max",
-    "version": "1.5.260",
-    "licenseApiBaseUrl": "https://public.migraven.com/api/v1"
+    "name": "migRaven.Max"
   },
   "paths": {
     "installRoot": "D:\\migRaven.Max",
